@@ -1,11 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
-    min-height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(100deg, rgba(255,255,255,1) 40%, rgb(151, 151, 151) 100%);
     
-    /* background-image: url("./bkg.png");
-    background-size: cover; */
+    background-image: url("./Scene.jpg");
+    background-size: cover; 
+    
+}
+
+.wrapper {
+    background: rgba(224, 224, 224, 0.8);
+    margin: 0;
+    padding: 16px 16px;
 }
 
 nav
