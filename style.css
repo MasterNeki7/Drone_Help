@@ -3,12 +3,11 @@
     padding: 0;
 }
 
-body
-{
-    
+body {
+
     background-image: url("./Scene.jpg");
-    background-size: cover; 
-    
+    background-size: cover;
+
 }
 
 .wrapper {
@@ -17,35 +16,40 @@ body
     padding: 10px 16px;
 }
 
-nav
-{
+nav {
     display: flex;
 }
 
-nav .menu
-{
+nav .menu {
     margin-top: 35px;
 }
 
-nav a
-{
+nav a {
     text-decoration: none;
     font-size: 20px;
     padding: 12px 16px;
 }
 
-img
-{
-    
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+
     padding: 0px 100px;
 }
 
-h1 + p 
-{
-   margin-top: 20px;
+p {
+    max-width: 60ch;
+    font-size: 21px;
+    line-height: 1.4;
 }
 
-p + h1
-{
+h1+p {
+    margin-top: 20px;
+}
+
+p+h1 {
     margin-top: 20px;
 }
