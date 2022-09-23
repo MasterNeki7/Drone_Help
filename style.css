@@ -1,0 +1,32 @@
+body
+{
+    min-height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(100deg, rgba(255,255,255,1) 40%, rgb(151, 151, 151) 100%);
+    
+    /* background-image: url("./bkg.png");
+    background-size: cover; */
+}
+
+nav
+{
+    display: flex;
+}
+
+nav .menu
+{
+    margin-top: 35px;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 16px;
+}
+
+img
+{
+    
+    padding: 0px 100px;
+}
